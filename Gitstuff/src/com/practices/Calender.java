@@ -22,7 +22,7 @@ public class Calender {
 
 		driver.findElement(By.xpath("//input [@id='form-field-travel_comp_date']")).click();
 
-		while (!driver.findElement(By.xpath("//div[@class='flatpickr-month']")).getText().contains("July")) {
+		while (!driver.findElement(By.xpath("//div[@class='flatpickr-month']")).getText().contains("August")) {
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//span[@class='flatpickr-next-month']")).click();
 		}
