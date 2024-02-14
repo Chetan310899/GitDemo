@@ -41,6 +41,7 @@ public class Calender {
 		}
 		String date = driver.findElement(By.xpath("//*[@id='form-field-travel_comp_date']")).getAttribute("value");
 		System.out.println("The select date is:" + date);
+		System.out.println("Booking Done");
 	}
 
 }

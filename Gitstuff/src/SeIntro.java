@@ -20,6 +20,7 @@ public class SeIntro {
 		driver.get("https://capgemini.udemy.com/organization/home/");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+		System.out.println("Selenium Intro");
 		/*
 		 * driver.close(); driver.quit();
 		 */
